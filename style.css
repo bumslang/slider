@@ -1,0 +1,37 @@
+.swiper-container {
+   
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.swiper-slide__item{
+    background: #FFFFFF;
+border: 1px solid #EAEAEA;
+box-sizing: border-box;
+border-radius: 6px;
+width: 240px;
+height: 72px;
+display: flex;
+justify-content: space-around;
+    
+}
+.swiper-slide__link{
+    align-self: center;
+}
+
+.swiper-caption{
+    font-size: 16px;
+line-height: 24px;
+letter-spacing: -0.2px;
+text-transform: uppercase;
+color: #7E7E82;
+width: 320px;
+height: 80px;
+padding: 16px;
+    position: absolute;
+    z-index: 2;
+}
+}
+
