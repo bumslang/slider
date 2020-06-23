@@ -30,8 +30,13 @@ color: #7E7E82;
 width: 320px;
 height: 80px;
 padding: 16px;
-    position: absolute;
-    z-index: 2;
+background: linear-gradient(270deg, #F8F8F8 0%, #FFFFFF 98.61%);
+   
 }
+.swiper-wrapper--height, .swiper-slide--height{
+    height: 154px;
+}
+.swiper-slide--height{
+    background: #F2F2F2;
 }
 
